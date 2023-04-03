@@ -1,0 +1,23 @@
+{
+  "name": "miniwebpack",
+  "version": "1.0.0",
+  "description": "手写webpack",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/generator": "^7.21.4",
+    "@babel/parser": "^7.21.4",
+    "@babel/traverse": "^7.21.4",
+    "@babel/types": "^7.21.4",
+    "tapable": "^2.2.1",
+    "webpack": "^5.77.0"
+  }
+}
