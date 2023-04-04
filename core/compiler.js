@@ -136,6 +136,7 @@ class Compiler {
       //   this.moduleCode = loaderFn(this.moduleCode)
       // }
     })
+    console.log('matchLoaders', matchLoaders);
     // 2. 倒序执行loader 传入源代码
     for(let i = matchLoaders.length - 1; i >= 0; i--) {
       const loaderFn = require(matchLoaders[i])

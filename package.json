@@ -17,6 +17,7 @@
     "@babel/parser": "^7.21.4",
     "@babel/traverse": "^7.21.4",
     "@babel/types": "^7.21.4",
+    "loader-runner": "^4.3.0",
     "tapable": "^2.2.1",
     "webpack": "^5.77.0"
   }
